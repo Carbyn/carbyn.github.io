@@ -1,0 +1,39 @@
+# Site wide configuration
+
+title: "Carbyn's blog"
+description: "The official blog of carbyn"
+logo: logo.jpg # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
+locale:
+# url: //carbyn.github.io # production
+url: //carbyn.showyigui.com:10910 # development
+
+# Jekyll configuration
+
+sass:
+    sass_dir: _sass
+    style: compressed
+permalink: /:categories/:title/
+markdown: kramdown
+highlighter: pygments
+gems:
+  - jekyll-sitemap
+
+
+# Site owner
+owner:
+  name: "Carbyn Wu"
+  email: "Carbyn.Wu@gmail.com"
+  twitter: "@CarbynWu"
+  google:
+    ad-client: 
+    ad-slot: 
+  bio: "Just another boring, American TV fans, programming ape"
+  avatar: avatar.jpg # 160x160 px image for author byline
+disqus-shortname: Carbyn
+
+# self define
+excerpt_separator: ""  # Workaround for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

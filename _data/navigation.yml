@@ -1,0 +1,13 @@
+# Site navigation links
+
+- title: Articles
+  url: /articles/
+
+- title: Codes 
+  url: /codes/
+
+- title: About
+  url: /about/
+  excerpt: "This is the official blog of carbyn"
+  image: 
+
