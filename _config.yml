@@ -5,8 +5,8 @@ description: "The official blog of carbyn"
 logo: logo.jpg # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale:
-# url: //carbyn.github.io # production
-url: //carbyn.showyigui.com:10910 # development
+url: //carbyn.cc # production
+# url: //carbyn.showyigui.com:10910 # development
 
 # Jekyll configuration
 
