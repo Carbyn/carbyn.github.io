@@ -8,4 +8,3 @@ share: false
 ---
 
 <p>This is the official blog of carbyn.</p>
-<p>Just for the record some piecemeal knowledge.</p>
