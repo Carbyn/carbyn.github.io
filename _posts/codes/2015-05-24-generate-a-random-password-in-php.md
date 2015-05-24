@@ -1,9 +1,4 @@
 ---
-published: true
----
-
-
----
 layout: article
 title: "Generate-a-Random-Password-in-PHP"
 modified:
