@@ -13,6 +13,6 @@ date: 2014-12-14T20:49:40+08:00
 ---
 
 <p>Add the following config to ~/.npmrc</p>
-```bash
+{% highlight bash %}
 registry = https://registry.npm.taobao.org</p>
-```
+{% endhighlight %}
