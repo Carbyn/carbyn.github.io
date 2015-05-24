@@ -12,7 +12,7 @@ image:
 date: 2015-05-24T16:49:40+08:00
 ---
 
-{% highlight php %}
+{% highlight php startinline %}
 function is_running_well($pid, $timeout) {
     // get etime
     exec("ps -eo pid,etime |grep $pid |awk '{print $2}'", $ret);
