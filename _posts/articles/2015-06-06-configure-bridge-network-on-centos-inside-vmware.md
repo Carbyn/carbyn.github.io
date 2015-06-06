@@ -30,3 +30,8 @@ ONBOOT=yes
 TYPE=Ethernet
 DNS1=8.8.8.8
 {% endhighlight %}
+<p>
+<p>At the last, restart network service.</p>
+{% highlight bash %}
+service network restart
+{% endhighlight %}
