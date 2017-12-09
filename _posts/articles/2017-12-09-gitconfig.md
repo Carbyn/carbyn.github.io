@@ -15,15 +15,15 @@ date: 2017-12-09T14:18:41+08:00
 This is my ~/.gitconfig
 {% highlight bash %}
 [user]
-	  name = carbyn
-	  email = carbyn.wu@gmail.com
+	name = carbyn
+	email = carbyn.wu@gmail.com
 [credential]
-	  helper = store
+	helper = store
 [alias]
-	  st = status
-	  ci = commit --verbose
-	  co = checkout
-    br = branch
+	st = status
+	ci = commit --verbose
+	co = checkout
+	br = branch
 [push]
-	  default = simple
+	default = simple
 {% endhighlight %}
